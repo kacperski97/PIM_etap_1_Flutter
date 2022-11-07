@@ -74,10 +74,10 @@ class _MainWidgetState extends State<MainWidget>{
   @override
   Widget build(BuildContext context){
     return MaterialApp(
-      title: 'xD',
+      title: 'Clicker',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('xD'),
+          title: const Text('Clicker'),
         ),
       body: Center(child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -129,10 +129,10 @@ class ShopWidget extends StatelessWidget {
     final arguments = ModalRoute.of(context)!.settings.arguments as PassedArguments;
 
     return MaterialApp(
-      title: 'xD',
+      title: 'Shop',
       home: Scaffold(
           appBar: AppBar(
-            title: const Text('xD'),
+            title: const Text('Shop'),
           ),
           body: Center(child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
